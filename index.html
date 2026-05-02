@@ -34,7 +34,7 @@
                     </div>
                     <div class="hero-buttons">
                         <a href="#contacto" class="btn">Contáctame</a>
-                        <a href="cv/cv-Sobrero-Nicolás.pdf" class="btn" download>
+                        <a href="cv/Nicolás_Sobrero.pdf" class="btn" download>
                             Descargar CV
                         </a>
                     </div>
@@ -82,17 +82,27 @@
                     </div>
                 </div>
                 <div class="project-info">
-                        <h3>App gestión concesionaria - Proyecto académico</h3>
-                        <p>Aplicacion web simple para gestión de concesionarias</p>
-                        <div class="project-tech">
-                            <span>JAVA</span>
-                            <span>SPRING BOOT</span>
-                            <span>MYSQL</span>
-                            <span>MAVEN</span>
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>THYMELEAFT</span>
-                            <span>BOOSTRAP</span>
+                    <h3>App gestión concesionaria - Proyecto académico</h3>
+                    <p>Aplicacion web simple para gestión de concesionarias</p>
+                        <div class="project-tech-groups">
+                            <div class="tech-group">
+                                <span class="tech-group-label">Backend</span>
+                                <div class="project-tech">
+                                    <span>Java</span>
+                                    <span>Spring boot</span>
+                                    <span>MySQL</span>
+                                    <span>Maven</span>
+                                </div>
+                            </div>
+                        </div>        
+                        <div class="tech-group">
+                            <span class="tech-group-label">Frontend</span>
+                            <div class="project-tech">
+                                <span>Html</span>
+                                <span>Css</span>
+                                <span>Thymeleaft</span>
+                                <span>Boostrap</span>
+                            </div>
                         </div>
                         <div class="project-links">
                             <a href="https://youtu.be/e8njSresLEs" target="_blank"><i class="bi bi-link"></i>Demo</a>
@@ -104,28 +114,54 @@
             <div class="projects-container">
                 <div class="project-card" data-project="complejodeportivo">
                     <div class="project-img">
-                        <img src="fotos-api/complejodeportivo.jpg" alt="projecto 1">
-                        
+                        <img src="fotos-api/complejodeportivo.jpg" alt="Complejo Deportivo">
                     </div>
                 </div>
 
                 <div class="project-info">
-                        <h3>API rest Complejo deportivo - Proyecto personal</h3>
-                        <p>API pensada para la gestión de complejo deportivo - Visibilidad de turnos disponibles para diferentes deportes, reservas y cancelación de los mismos </p>
-                        <div class="project-tech">
-                            <span>JAVA</span>
-                            <span>SPRING BOOT</span>
-                            <span>SPRING DATA JPA</span>
-                            <span>MYSQL</span>
-                            <span>MAVEN</span>
-                            <span>HIBERNATE</span>
-                            <span>DOCKER & DOCKER COMPOSE</span>
-                            
+                    <h3>Sistema de reservas — Complejo Deportivo</h3>
+                    <p>Sistema fullstack para gestión de turnos deportivos. Incluye autenticación JWT, pagos online con MercadoPago, modo partido para emparejar equipos rivales, reportes de ocupación e ingresos, y notificaciones por email.</p>
+
+                    <div class="project-tech-groups">
+                        <div class="tech-group">
+                            <span class="tech-group-label">Backend</span>
+                            <div class="project-tech">
+                                <span>Java 25</span>
+                                <span>Spring Boot 4</span>
+                                <span>Spring Security + JWT</span>
+                                <span>JPA + MySQL</span>
+                                <span>Maven</span>
+                                <span>Lombok</span>
+                            </div>
                         </div>
-                        <div class="project-links">
-                            <a href="https://www.youtube.com/watch?v=E9I0V-nuxcI" target="_blank"><i class="bi bi-link"></i>Demo</a>
-                            <a href="https://github.com/nicosobrero14-hue/complejoGestionTurnos.git" target="_blank"><i class="bi bi-github"></i>Repositorio</a>
+                        <div class="tech-group">
+                            <span class="tech-group-label">Integraciones</span>
+                            <div class="project-tech">
+                                <span>MercadoPago SDK</span>
+                                <span>Gmail SMTP</span>
+                                <span>ngrok</span>
+                            </div>
                         </div>
+                        <div class="tech-group">
+                            <span class="tech-group-label">Frontend</span>
+                            <div class="project-tech">
+                                <span>React 19 + Vite</span>
+                                <span>CSS Variables</span>
+                                <span>Dark mode</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-features">
+                        <span><i class="bi bi-check2"></i> Pagos online con descuento</span>
+                        <span><i class="bi bi-check2"></i> Modo partido / búsqueda de rival</span>
+                        <span><i class="bi bi-check2"></i> Panel admin con reportes</span>
+                        <span><i class="bi bi-check2"></i> Verificación por email</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://youtu.be/RqOm61SB1Ck" target="_blank"><i class="bi bi-play-circle"></i> Demo</a>
+                        <a href="https://github.com/nicosobrero14-hue/reservasComplejoDeportivo.git" target="_blank"><i class="bi bi-github"></i> Repositorio</a>
                     </div>
                 </div>
             </div>

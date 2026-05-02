@@ -10,8 +10,21 @@ const projectsGallery = {
         'fotos-proyectos/MostrarContacto.png',
         'fotos-proyectos/MostrarContactoConcesionaria.png',
         'fotos-proyectos/MostrarInformeConcesionaria.png'
-        ]
+        ],
+    complejodeportivo: [
+        'fotos-gestionComplejo/Login.png',
+        'fotos-gestionComplejo/PanelAdmin.png',
+        'fotos-gestionComplejo/MisReservas.png',
+        'fotos-gestionComplejo/IndiceAsistencia.png',
+        'fotos-gestionComplejo/EjemploTurnos.png',
+        'fotos-gestionComplejo/EjemploReportes.png',
+        'fotos-gestionComplejo/EjemploBuscandoRival.png',
+        'fotos-gestionComplejo/ControlUsuarios.png',
+        'fotos-gestionComplejo/ConfiguracionPagosYDescuentos.png'
+        ]    
 };
+
+
 
 const modal = document.getElementById('gallery-modal');
 const modalImg = document.getElementById('gallery-image');

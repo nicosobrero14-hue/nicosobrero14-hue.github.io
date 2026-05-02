@@ -560,7 +560,58 @@ footer {
     color: #4caf50;
 }
 
-/* --- Tecnologías --- */
+/* --- Tech Groups (proyecto complejo deportivo) --- */
+
+.project-tech-groups {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    margin-bottom: 1rem;
+}
+
+.tech-group {
+    display: flex;
+    align-items: flex-start;
+    gap: .6rem;
+    flex-wrap: wrap;
+}
+
+.tech-group-label {
+    font-size: .7rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    background-color: rgba(108, 99, 255, 0.1);
+    border: 1px solid rgba(108, 99, 255, 0.25);
+    padding: .15rem .5rem;
+    border-radius: 4px;
+    white-space: nowrap;
+    margin-top: .15rem;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+}
+
+/* --- Features list --- */
+
+.project-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem;
+    margin-bottom: 1rem;
+}
+
+.project-features span {
+    font-size: .8rem;
+    color: var(--gray-text);
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.project-features i {
+    color: var(--primary-color);
+    font-size: .85rem;
+}
+
 
 .tech-grid {
     display: grid;
