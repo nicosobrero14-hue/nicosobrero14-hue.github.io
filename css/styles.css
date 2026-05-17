@@ -299,7 +299,9 @@ section {
 }
 
 .projects-container {
-    display: grid;
+    display: inline-flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 2rem;
 }
@@ -310,8 +312,7 @@ section {
     overflow: hidden;
     transition: var(--trasition);
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    display: inline-flex
 }
 
 .project-card:hover {
@@ -321,15 +322,19 @@ section {
 
 .project-img {
     overflow: hidden;
+    
 }
 
 .project-img img {
     transition: var(--trasition);
     width: 100%;
 }
-
+.project-card[data-project="concesionaria"] img {
+    height: 390px;
+    object-fit: cover;
+}
 .project-card:hover .project-img img {
-    transform: scale(1.05);
+    transform: scale(0.8);
 }
 
 .project-info {

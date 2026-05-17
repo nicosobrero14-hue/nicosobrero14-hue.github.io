@@ -21,7 +21,38 @@ const projectsGallery = {
         'fotos-gestionComplejo/EjemploBuscandoRival.png',
         'fotos-gestionComplejo/ControlUsuarios.png',
         'fotos-gestionComplejo/ConfiguracionPagosYDescuentos.png'
-        ]    
+        ], 
+    artesanos: [
+        'fotos-artesanos/Login.png',
+        'fotos-artesanos/AgregarPieza.png',
+        'fotos-artesanos/CatalogoPropio.png',
+        'fotos-artesanos/CatalogoPublico.png',
+        'fotos-artesanos/ChatInterno.png',
+        'fotos-artesanos/ConfigRanking.png',
+        'fotos-artesanos/ControlPedidos.png',
+        'fotos-artesanos/CrearEvento.png',
+        'fotos-artesanos/CuponesDescuento.png',
+        'fotos-artesanos/FeedBack.png',
+        'fotos-artesanos/FeriasDisponibles.png',
+        'fotos-artesanos/GestionClientes.png',
+        'fotos-artesanos/InteraccionArtesanos.png',
+        'fotos-artesanos/ModPiezas.png',
+        'fotos-artesanos/PanelAdmin.png',
+        'fotos-artesanos/PanelUsuario.png',
+        'fotos-artesanos/PerfilUsuario.png',
+        'fotos-artesanos/PerfilYReseñasArtesanos.png',
+        'fotos-artesanos/Premium.png',
+        'fotos-artesanos/Ranking.png'
+    ],
+    pilates: [
+        'fotos-pilates/Alumnos.png',
+        'fotos-pilates/AsignarCamas.png',
+        'fotos-pilates/CreacionAlumnos.png',
+        'fotos-pilates/CreacionClase.png',
+        'fotos-pilates/Dashboard.png',
+        'fotos-pilates/GeneracionPagos.png',
+        'fotos-pilates/GeneracionPrecios.png'
+    ]
 };
 
 
