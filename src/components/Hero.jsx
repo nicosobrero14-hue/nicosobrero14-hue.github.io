@@ -24,7 +24,7 @@ export default function Hero() {
             <a href="#contacto" className="btn btn--primary">
               <i className="bi bi-send" /> Contáctame
             </a>
-            <a href="/cv/Nicolas Sobrero_CV.docx" className="btn btn--ghost" download>
+            <a href="/cv/cv_nicolas_sobrero.pdf" className="btn btn--ghost" download>
               <i className="bi bi-download" /> Descargar CV
             </a>
           </div>
